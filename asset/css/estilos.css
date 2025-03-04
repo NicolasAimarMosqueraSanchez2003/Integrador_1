@@ -29,6 +29,11 @@ header{
 
 .Logo{
     width: 20%;
+    text-align: center;
+}
+
+.Imagen_Logo{
+    width: 100%;
     filter: drop-shadow(0px 0px 5px black);
 }
 
@@ -149,6 +154,7 @@ h1{
 .Imagen_Producto{
     width: 250px;
     height: 250px;
+    margin: auto;
 }
 
 .Comprar{
