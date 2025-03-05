@@ -9,7 +9,6 @@
 /* Body */
 body{
     font-family: 'Madimi One';
-    height: 100dvh;
 }
 
 .madimi-one-regular {
@@ -29,7 +28,6 @@ header{
 
 .Logo{
     width: 20%;
-    text-align: center;
 }
 
 .Imagen_Logo{
@@ -39,8 +37,6 @@ header{
 
 .Banner{
     width: 75%;
-    display: flex;
-    justify-content: center;
     font-size: 100px;
     color: red;
     text-shadow: 0px 10px 5px gold;
@@ -48,10 +44,6 @@ header{
 
 .Menu{
     width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: center;
-    
 }
 
 a{
@@ -63,11 +55,9 @@ a{
 .Navegador {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: (1, 1fr);
     width: 100%;
     background-color: rgb(255, 136, 0);
     text-align: center;
-    height: auto;
     font-size: 30px;
 }
 
@@ -105,7 +95,7 @@ a{
 
 /* Main */
 main{
-    height: 100%;
+    min-height: 100dvh;
 }
 
 h1{
@@ -174,20 +164,8 @@ button:hover{
     background-color: green;
 }
 
-/* Pagina Alta */
-.AltaProducto{
-    margin: 20px;
-    padding: 20px;
-    border-radius: 50px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    background-color: lightgray;
-}
-
-/* Pagina Contacto */
-.Form_Contacto{
+/* Pagina Alta y Contacto */
+form{
     margin: 20px;
     padding: 20px;
     border-radius: 50px;
@@ -219,6 +197,7 @@ button:hover{
 /* Footer */
 footer{
     background-color: black;
+    padding: 20px;
 }
 
 footer h2 {
@@ -238,7 +217,6 @@ footer p{
 .Info {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: (1, 1fr);
     gap: 10px;
     padding: 10px;
     text-align: center;
@@ -276,7 +254,7 @@ body {
 
 /* Main */
 main {
-    height: auto;
+    min-height: 100dvh;
 }
 
 /* Pagina Productos */
